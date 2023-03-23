@@ -7,7 +7,7 @@
 .footer-cards {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
 }
 .footer-card p {
   width: 320px;
@@ -46,11 +46,64 @@
 .footer-menu p {
   font-weight: 600;
   font-size: 20px;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 .footer-menu ul li {
   padding-bottom: 20px;
 }
 .footer-menu ul li a {
   color: white;
+}
+.footer-saveprice p:first-child {
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 25px;
+}
+.footer-saveprice button {
+  width: 200px;
+  height: 59px;
+  margin-bottom: 20px;
+  background: #ffc85e;
+  border-radius: 79px;
+  font-weight: 700;
+  color: #ffffff;
+}
+.footer-saveprice button img {
+  padding-left: 14px;
+}
+.footer-saveprice-social {
+  padding-top: 15px;
+}
+.footer-saveprice-social img:first-child {
+  margin-right: 10px;
+}
+.footer-contacts p:first-child {
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 25px;
+}
+.footer-contacts p:nth-child(2) {
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+.footer-contacts p:nth-child(3) {
+  font-weight: 300;
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+.footer-contacts p:nth-child(4) {
+  font-weight: 400;
+  font-size: 10px;
+  padding-bottom: 25px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+.footer-contacts p:nth-child(5) {
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+.footer-contacts p:nth-child(6) {
+  font-weight: 300;
+  font-size: 12px;
+  margin-bottom: 25px;
 }/*# sourceMappingURL=footer.css.map */
