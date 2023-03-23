@@ -1,0 +1,56 @@
+.footer {
+  padding-top: 70px;
+  padding-bottom: 116px;
+  color: #ffffff;
+  background: #3f4e65;
+}
+.footer-cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-card p {
+  width: 320px;
+  font-size: 16px;
+  line-height: 150%;
+  padding-top: 15px;
+  padding-bottom: 45px;
+}
+.footer-card span {
+  font-weight: 400;
+  font-size: 12px;
+}
+.footer-card-email {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding-top: 14px;
+}
+.footer-card-email input {
+  width: 282px;
+  height: 59px;
+  background-color: #ffffff;
+  border-radius: 36px;
+  padding-left: 20px;
+  font-size: 12px;
+}
+.footer-card-email-circle {
+  width: 39px;
+  height: 39px;
+  background: #ffc85e;
+  border-radius: 1000px;
+  position: absolute;
+  left: 230px;
+}
+.footer-menu p {
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+.footer-menu ul li {
+  padding-bottom: 20px;
+}
+.footer-menu ul li a {
+  color: white;
+}/*# sourceMappingURL=footer.css.map */

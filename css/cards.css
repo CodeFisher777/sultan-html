@@ -1,0 +1,59 @@
+.card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 21px;
+  grid-row-gap: 21px;
+}
+.card-item {
+  background: #ffffff;
+  box-shadow: 0px 14px 39px -11px rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  width: 326px;
+  padding: 42px 23px 29px 21px;
+}
+.card-item-mainimg {
+  margin-bottom: 4px;
+  display: flex;
+  justify-content: center;
+}
+.card-item-v {
+  display: flex;
+  justify-content: flex-start;
+}
+.card-item-v img {
+  padding-right: 8px;
+}
+.card-item-parameters p:first-child {
+  font-weight: 500;
+  font-size: 16px;
+  width: 280px;
+  line-height: 130%;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.card-item-parameters span {
+  color: #3f4e65;
+  font-weight: 300;
+}
+.card-item-parameters p:not(:first-child) {
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.card-item-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-item-bottom p {
+  font-weight: 800;
+  font-size: 16px;
+  color: #111111;
+}
+.card-item-bottom button {
+  width: 153px;
+  height: 45px;
+  background: #ffc85e;
+  border-radius: 80px;
+  color: #ffffff;
+}/*# sourceMappingURL=cards.css.map */
